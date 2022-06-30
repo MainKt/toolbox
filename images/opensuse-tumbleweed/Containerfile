@@ -1,0 +1,3 @@
+FROM registry.opensuse.org/opensuse/toolbox:latest
+
+RUN echo "%wheel ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/toolbox
